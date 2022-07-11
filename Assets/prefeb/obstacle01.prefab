@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2881988054905554733}
   - component: {fileID: 2881988054905554730}
   - component: {fileID: 2881988054905554731}
-  - component: {fileID: 300473360921747362}
-  - component: {fileID: -2397183588571033144}
-  m_Layer: 12
+  - component: {fileID: 401804168740915338}
+  - component: {fileID: -6127969260631065767}
+  m_Layer: 15
   m_Name: obstacle01
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -112,8 +112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d6997e2d7de77941b67fa1aaee9939c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
---- !u!114 &300473360921747362
+  speed: 2
+--- !u!114 &401804168740915338
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,10 +122,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2881988054905554728}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d71c51e05bd3c394cbeefbf89ae3a336, type: 3}
+  m_Script: {fileID: 11500000, guid: 55476fc34a724ce4a8e5f4e749499f09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &-2397183588571033144
+--- !u!54 &-6127969260631065767
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

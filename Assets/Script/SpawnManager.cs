@@ -11,10 +11,14 @@ public class SpawnManager : MonoBehaviour
     private float spawnRangez = 20;
     [SerializeField]
     private float spawnRangey = 1;
+    [SerializeField]
+    private float spawnTime = 7;
+    [SerializeField]
+    private float spawnDelay = 3;
 
     void Start()
     {
-        InvokeRepeating("SpawnRandomObstacle",2,1.5f);
+        InvokeRepeating("SpawnRandomObstacle",spawnTime,spawnDelay);
     }
 
     void Update()
