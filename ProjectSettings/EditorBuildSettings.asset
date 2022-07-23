@@ -4,10 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/_Samples/MultiSelect/MultiSelect.unity
-    guid: fefc68e5c4459c0478c3a7b9bae8ef86
+  m_Scenes: []
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 664947ae87377d743bd63c96cee830d1, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4a96d0fbed1e6ef48835cdf08f4527ac, type: 2}
