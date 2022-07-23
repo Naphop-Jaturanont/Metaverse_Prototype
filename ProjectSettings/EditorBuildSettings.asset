@@ -6,44 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/MINIGAME01.unity
-    guid: a3255a0ba0f254c5d8760479bf93c90a
-  - enabled: 1
-    path: Assets/Scenes/MINIGAME02.unity
-    guid: d83c506df9be7442c9147a86e9ac50ad
-  - enabled: 1
-    path: Assets/Scenes/MINIGAME03.unity
-    guid: 2ef595577dd894e6ca0eff38dc68714f
-  - enabled: 1
-    path: Assets/Scenes/MINIGAME04.unity
-    guid: 5e3e46c95355a4c7493defe066690ec2
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/_Samples/MultiSelect/MultiSelect.unity
+    guid: fefc68e5c4459c0478c3a7b9bae8ef86
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
-      type: 2}
-    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba,
-      type: 2}
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9bec1ce6a03ccba4b9a8215241b32e63,
-      type: 2}
-    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a49cadc1a815591479693b955ccf08c1,
-      type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a4c68ca72a83449f938d669337cb305,
-      type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a9a6963505ddf7f4d886008c6dc86122,
-      type: 2}
-    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 017cecde8dd6e0449a9a16922a5d542c,
-      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 664947ae87377d743bd63c96cee830d1, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4a96d0fbed1e6ef48835cdf08f4527ac, type: 2}
