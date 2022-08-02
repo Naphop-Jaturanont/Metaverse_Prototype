@@ -18,7 +18,18 @@ public class DetectColisions : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.tag == "AMMO")
+        {
+         ScoreManager.instance.AddPoint();
         Destroy(gameObject);
-        Destroy(this.gameObject);
+        Destroy(this.gameObject);   
+        }
+
+        if (other.tag == "Finish")
+        {
+         GameManager.instance.EndGame();   
+        }
+        
     }
+    
 }
