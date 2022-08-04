@@ -21,5 +21,6 @@ EditorBuildSettings:
     path: Assets/Scene/MINIGAME04.unity
     guid: 5a0fa3777d417cd42af3f0f2dc92c215
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 51fb8589e726e284c8645f0f4a8aa029, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 664947ae87377d743bd63c96cee830d1, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4a96d0fbed1e6ef48835cdf08f4527ac, type: 2}
